@@ -1,0 +1,321 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat",Helvetica, sans-serif;
+
+
+}
+
+
+.nav-bar{
+    display: flex;
+    padding-top: 20px;
+    width: 100%;
+    height: fit-content;
+    background: linear-gradient(90deg, rgba(31, 21, 13, 0.995) 15%, rgba(125, 58, 3, 0.83) 80%);
+}
+a{
+    text-decoration: none;
+    color: white;
+    margin-right: 70px;
+}
+
+a:hover{
+    color: #60A5FA;
+    text-decoration: none;
+    border-bottom: #60A5FA 2px solid;
+}
+
+
+
+.punch-line h2{
+    color: rgb(255, 255, 255);
+    display: block;
+    margin-left: 60px;
+    font-size: 52px;
+    text-shadow: 0 0 10px black;
+}
+.para{
+    color:white;
+    margin: 30px auto auto 60px;
+    text-shadow: 0 0 10px black;
+    
+}
+.main-banner{
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.1);
+}
+.cta button{
+    color:white;
+    margin: 40px auto auto 60px;
+    border: 1px transparent solid;
+    background-color: rgb(251, 65, 78);
+    padding: 20px 70px 20px 60px;
+    border-radius: 7px;
+}
+
+
+
+
+
+
+.logo{
+    font-size: 26px;
+    font-weight: 500;
+    color: white;
+    display: flex;
+    text-shadow: 0 0 10px black;
+    margin: 0px auto 20px 60px;
+}
+.svg4{
+    height: 70px;
+}
+
+.nav-list{
+    display: flex;
+    margin: 20px 100px 30px 0px;
+
+}
+
+
+
+.Hero{
+    background-image: url('/images/mario-gogh-VBLHICVh-lI-unsplash\ \(1\).jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+.svgs{
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+
+}
+
+
+.cards{
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    margin-top: 70px;
+    height: 400px;
+}
+
+.card1,.card2,.card3{
+    background-color: rgb(203, 66, 66);
+    margin: -200px 80px 30px 80px;
+    padding: 30px;
+    width: 450px;
+    height: 300px;
+    box-shadow: 0  0 10px #1F2937;
+    margin-bottom: 40px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+
+}
+
+
+.section1 {
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgba(74, 99, 153, 0.704) 35%, rgba(200, 89, 4, 0.83) 70%);
+    text-align: center;
+    height: 160vh;
+    padding-top: 50px;
+    font-size: 22px;
+}
+
+
+
+.content{
+    padding-top: 40px;
+}
+
+
+.Services{
+    display: flex;
+    justify-content:start;
+    align-items: start;
+    margin-top: 70px;
+    height: 400px;
+}
+
+.service1,.service2,.service3{
+    margin: 0px 80px 30px 80px;
+    padding: 30px;
+    width: 450px;
+    height: 300px;
+    margin-bottom: 40px;
+    border: 1px solid transparent;
+    border-radius: 15px;
+
+}
+
+.sub-head{
+    display: inline;
+    color: red;
+    border-bottom: 2px solid orangered;
+    font-size: 28px;
+}
+
+
+
+
+.btn{
+    color:white;
+    
+    border: 1px transparent solid;
+    background-color: rgb(251, 65, 78);
+    padding: 20px 70px 20px 60px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 0 0 10px black;
+}
+
+
+.section2,.section3{
+    height: 550px;
+    background: #202B2F;
+    display: flex;
+    text-align: start;
+    justify-content: space-around;
+    padding-top: 50px;
+    font-size: 22px;
+}
+
+.section3{
+    background: #234678;
+}
+.section4{
+    background-color: rgb(209, 130, 27);
+    height: 400px;
+    
+    
+
+}
+.heading{
+ color: white;
+align-content: center;
+ font-size: 38px;
+text-align: center;
+height: 60px;
+}
+.boxs{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    height: 400px;
+    align-items: center;
+}
+
+.box1,.box2,.box3{
+    
+    width: 250px;
+    text-wrap: wrap;
+    background-color: #789041;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #1F2937;
+}
+
+
+
+
+
+.para{
+    width: 600px;
+    font-size: medium;
+}
+
+.img1{
+    height: 450px;
+    width: 400px;
+    right: 30px
+
+}
+.img2{
+    padding-top: 30px;
+    max-width: fit-content;
+    height: 450px;
+    left: 30px;
+
+}
+
+.banner0{
+    color: white;
+    margin: 0 auto auto 60px;
+    font-size: 38px;
+}
+
+.section5{
+    height: 600px;
+    background-color: white;
+}
+
+button:hover{
+    background-color: #60A5FA;
+    color: white;
+    border: 1px transparent solid;
+    padding: 20px 70px 20px 60px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-size: 20px;
+    text-shadow: 0 0 10px black;
+    
+}
+
+
+
+
+
+
+  .container { 
+    max-width: 1200px; 
+    height: 500px;
+    margin: 20px auto; 
+    padding: 20px; 
+  }
+  .left-column { 
+    float: left; 
+    width: 40%
+  }
+  .right-column { 
+    float: right; 
+    width: 50%; 
+  }
+  form { 
+    margin-top: 20px; 
+  }
+  input, select, textarea { 
+    width: 100%; 
+    padding: 10px; 
+    margin-bottom: 10px; 
+  }
+  .aa { 
+    width: 100%; 
+    padding: 10px; 
+    background-color: red; 
+    color: white; 
+    border: none; 
+    cursor: pointer; 
+  }
+  .aa:hover { 
+    background-color: darkred; 
+  }
+
+  .foot{
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+  }
+  
